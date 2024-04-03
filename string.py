@@ -9,5 +9,5 @@ for i in range(len):
         v=v+1
     else:
         c=c+1
-print("vowels=",v)
-print("constant=",c)
+r={"vowels":v,"constant":c}
+print(r)
